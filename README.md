@@ -4,27 +4,28 @@
 
 ## От **Digitalize**
 
-h5 Настройка LAMP для php на Debian
+#####  Настройка LAMP для php на Debian
 https://github.com/alexey-goloburdin/debian-set-up-for-php
 
-h5 NGINX сервер для Django
+##### NGINX сервер для Django
 https://github.com/alexey-goloburdin/debian-set-up-for-django
 
-h5 Чистый шаблон Django проекта
+##### Чистый шаблон Django проекта
 https://github.com/alexey-goloburdin/django-clean-template
 
 # SSH 
-sudo apt install openssh-server
-sudo systemctl enable sshd
+    sudo apt install openssh-server
+    sudo systemctl enable sshd
 
-sudo vim /etc/ssh/sshd_config
+    sudo vim /etc/ssh/sshd_config
+
 PermitRootLogin no
 PubkeyAuthentication yes
 
-sudo systemctl restart ssh
+    sudo systemctl restart ssh
 
-Генерируем ключи
-ssh-keygen
+    Генерируем ключи
+    ssh-keygen
 
 Загружаем ключ на сервер
 ssh-copy-id username@remote_host
