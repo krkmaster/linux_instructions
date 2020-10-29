@@ -2,14 +2,15 @@
 
 
 
-#От Digitalize
-Настройка LAMP для php на Debian
+## От **Digitalize**
+
+h5 Настройка LAMP для php на Debian
 https://github.com/alexey-goloburdin/debian-set-up-for-php
 
-NGINX сервер для Django
+h5 NGINX сервер для Django
 https://github.com/alexey-goloburdin/debian-set-up-for-django
 
-Чистый шаблон Django проекта
+h5 Чистый шаблон Django проекта
 https://github.com/alexey-goloburdin/django-clean-template
 
 # SSH 
