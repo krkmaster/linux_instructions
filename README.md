@@ -16,27 +16,27 @@ https://github.com/alexey-goloburdin/django-clean-template/blob/master/README.md
     sudo apt install openssh-server
     sudo systemctl enable sshd
 
-Конфиг ssh
+######Конфиг ssh
     sudo vim /etc/ssh/sshd_config
 
-Проверяем и исправляем
+######Проверяем и исправляем
     PermitRootLogin no
     PubkeyAuthentication yes
 
-Перезагружаем ssh
+######Перезагружаем ssh
     sudo systemctl restart ssh
 
-Генерируем ключи
+######Генерируем ключи
     ssh-keygen
 
-Загружаем ключ на сервер
+######Загружаем ключ на сервер
     ssh-copy-id username@remote_host
 
-Если после этого не дает зайти по ключу
+######Если после этого не дает зайти по ключу
     cat ~/.ssh/id_rsa.pub | ssh username@remote_host "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 
-Подключение по SSH
+######Подключение по SSH
     ssh username@remote_host
 
-Если имя пользователя совпадает можно просто 
+######Если имя пользователя совпадает можно просто 
     ssh remote_host
