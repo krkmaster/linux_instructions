@@ -42,6 +42,7 @@ https://github.com/alexey-goloburdin/django-clean-template/blob/master/README.md
     ssh remote_host
 
 # Шрифты пользователя 
+
 ###### хранятся в папке 
     ~/.fonts
 
