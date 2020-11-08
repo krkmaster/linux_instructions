@@ -40,3 +40,11 @@ https://github.com/alexey-goloburdin/django-clean-template/blob/master/README.md
 
 ###### Если имя пользователя совпадает можно просто 
     ssh remote_host
+
+# Шрифты пользователя 
+хранятся в папке 
+    ~/.fonts
+
+чтобы обновить кэш шрифтов и подгрузить новые
+    fc-cache -f -v
+
