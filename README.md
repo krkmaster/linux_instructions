@@ -42,9 +42,9 @@ https://github.com/alexey-goloburdin/django-clean-template/blob/master/README.md
     ssh remote_host
 
 # Шрифты пользователя 
-хранятся в папке 
+###### хранятся в папке 
     ~/.fonts
 
-чтобы обновить кэш шрифтов и подгрузить новые
+###### чтобы обновить кэш шрифтов и подгрузить новые
     fc-cache -f -v
 
