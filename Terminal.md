@@ -1,10 +1,10 @@
 # Установка и настройка терминала Alacritty + оболочки fish
 ##### Устанавливаем Alacritty и  fish
-`sudo dnf install alacritty fish`
-
-`sudo apt install alacritty fish`
-
-`sudo pacman -S alacritty fish`
+> `sudo dnf install alacritty fish`
+> 
+> `sudo apt install alacritty fish`
+> 
+> `sudo pacman -S alacritty fish`
 
 ##### Устанавливаем fish оболочкой по-умолчанию
 `chsh -s /usr/bin/fish`
@@ -18,8 +18,11 @@
 
 ##### Устанавливаем шрифт `mononoki`
 > `curl -O https://github.com/madmalik/mononoki/releases/download/1.3/mononoki.zip`
+> 
 > `unzip mononoki.zip -d mononoki`
+> 
 > `mv mononoki ~/.fonts`
+> 
 > `fc-cache -f -v`
 
 ##### Создаем конфиг Alacritty
