@@ -1,8 +1,10 @@
 # Установка и настройка терминала Alacritty + оболочки fish
 ##### Устанавливаем Alacritty и  fish
-```sudo dnf install alacritty fish```
-```sudo apt install alacritty fish```
-```sudo pacman -S alacritty fish```
+`sudo dnf install alacritty fish`
+
+`sudo apt install alacritty fish`
+
+`sudo pacman -S alacritty fish`
 
 ##### Устанавливаем fish оболочкой по-умолчанию
 `chsh -s /usr/bin/fish`
